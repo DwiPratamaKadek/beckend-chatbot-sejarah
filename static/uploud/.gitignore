@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+.venv/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Static build output (jika ada file upload di static)
+static/uploads/
+static/*.log
+
+# Scraped data (jika sifatnya sementara atau hasil scraping saja)
+app/scraped_data/
+*.sqlite
+*.db
+
+# Environment configuration (berisi API key atau kredensial)
+.env
+
+# Logs
+*.log
+
+# pyright, mypy, atau linter cache
+.pyright/
+.mypy_cache/
